@@ -1,5 +1,7 @@
 package mao.deepClone;
 
+import java.io.Serializable;
+
 /**
  * Project name(项目名称)：java设计模式_原型模式
  * Package(包名): mao.deepClone
@@ -14,7 +16,7 @@ package mao.deepClone;
  */
 
 
-public class Student
+public class Student implements Serializable
 {
     //名字
     private String name;
